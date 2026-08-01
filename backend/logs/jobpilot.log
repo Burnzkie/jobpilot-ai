@@ -1,0 +1,245 @@
+2026-07-30 20:27:14,301 | INFO | app.services.resume_service | Resume uploaded successfully.
+2026-07-30 21:08:53,249 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:08:53,250 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:08:53,250 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:08:53,262 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (8.86 ms)
+2026-07-30 21:08:53,263 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-30 21:08:53,272 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (1.99 ms)
+2026-07-30 21:08:53,274 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-30 21:08:53,281 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (1.99 ms)
+2026-07-30 21:08:53,282 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-30 21:08:53,285 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:23:29,859 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:23:29,860 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:23:29,860 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:23:29,886 | INFO | app.middleware.logging | POST /api/resumes/upload -> 200 (21.90 ms)
+2026-07-30 21:23:29,887 | INFO | httpx | HTTP Request: POST http://testserver/api/resumes/upload "HTTP/1.1 200 OK"
+2026-07-30 21:23:29,895 | INFO | app.middleware.logging | GET /api/resumes -> 200 (3.62 ms)
+2026-07-30 21:23:29,896 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes "HTTP/1.1 200 OK"
+2026-07-30 21:23:29,904 | INFO | app.middleware.logging | GET /api/resumes/latest -> 200 (3.16 ms)
+2026-07-30 21:23:29,904 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes/latest "HTTP/1.1 200 OK"
+2026-07-30 21:23:29,906 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:23:55,269 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:23:55,269 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:23:55,269 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:23:55,293 | INFO | app.middleware.logging | POST /api/jobs -> 200 (20.01 ms)
+2026-07-30 21:23:55,294 | INFO | httpx | HTTP Request: POST http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-30 21:23:55,305 | INFO | app.middleware.logging | GET /api/jobs -> 200 (6.52 ms)
+2026-07-30 21:23:55,307 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-30 21:23:55,315 | INFO | app.middleware.logging | GET /api/jobs/1 -> 200 (2.91 ms)
+2026-07-30 21:23:55,316 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:23:55,325 | INFO | app.middleware.logging | PUT /api/jobs/1 -> 200 (3.02 ms)
+2026-07-30 21:23:55,326 | INFO | httpx | HTTP Request: PUT http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:23:55,336 | INFO | app.middleware.logging | DELETE /api/jobs/1 -> 200 (2.29 ms)
+2026-07-30 21:23:55,337 | INFO | httpx | HTTP Request: DELETE http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:23:55,340 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:24:17,451 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:24:17,452 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:24:17,452 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:24:17,464 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (8.76 ms)
+2026-07-30 21:24:17,465 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-30 21:24:17,473 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (1.93 ms)
+2026-07-30 21:24:17,473 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-30 21:24:17,482 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (2.80 ms)
+2026-07-30 21:24:17,482 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-30 21:24:17,485 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:25:22,532 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:25:22,532 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:25:22,533 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:25:24,344 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (2.11 ms)
+2026-07-30 21:25:24,345 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:25:24,353 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (2.07 ms)
+2026-07-30 21:25:24,354 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-30 21:25:24,361 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (2.14 ms)
+2026-07-30 21:25:24,362 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:25:24,365 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:36:09,071 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:36:09,072 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:36:09,072 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:36:09,106 | INFO | app.middleware.logging | POST /api/applications -> 200 (30.27 ms)
+2026-07-30 21:36:09,107 | INFO | httpx | HTTP Request: POST http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-30 21:36:09,116 | INFO | app.middleware.logging | GET /api/applications -> 200 (1.89 ms)
+2026-07-30 21:36:09,117 | INFO | httpx | HTTP Request: GET http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-30 21:36:09,125 | INFO | app.middleware.logging | PUT /api/applications/1 -> 200 (2.50 ms)
+2026-07-30 21:36:09,126 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-30 21:36:09,135 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (2.50 ms)
+2026-07-30 21:36:09,136 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:36:09,144 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (2.14 ms)
+2026-07-30 21:36:09,144 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-30 21:36:09,153 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (3.12 ms)
+2026-07-30 21:36:09,154 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:36:09,158 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:39:11,771 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:39:11,772 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:39:11,772 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:39:12,458 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:45:30,900 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:45:30,901 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:45:30,901 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:45:30,926 | INFO | app.middleware.logging | POST /api/cover-letter -> 200 (20.37 ms)
+2026-07-30 21:45:30,927 | INFO | httpx | HTTP Request: POST http://testserver/api/cover-letter "HTTP/1.1 200 OK"
+2026-07-30 21:45:30,931 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-30 21:45:51,391 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-30 21:45:51,391 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-30 21:45:51,391 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-30 21:45:51,418 | INFO | app.middleware.logging | POST /api/applications -> 200 (22.31 ms)
+2026-07-30 21:45:51,419 | INFO | httpx | HTTP Request: POST http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,429 | INFO | app.middleware.logging | GET /api/applications -> 200 (3.23 ms)
+2026-07-30 21:45:51,429 | INFO | httpx | HTTP Request: GET http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,440 | INFO | app.middleware.logging | PUT /api/applications/1 -> 200 (4.08 ms)
+2026-07-30 21:45:51,441 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,453 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (3.34 ms)
+2026-07-30 21:45:51,454 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:45:51,464 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (2.56 ms)
+2026-07-30 21:45:51,465 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,474 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (2.99 ms)
+2026-07-30 21:45:51,475 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-30 21:45:51,490 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (7.44 ms)
+2026-07-30 21:45:51,490 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,498 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (2.32 ms)
+2026-07-30 21:45:51,498 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,510 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (3.37 ms)
+2026-07-30 21:45:51,511 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-30 21:45:51,521 | INFO | app.middleware.logging | POST /api/cover-letter -> 200 (3.08 ms)
+2026-07-30 21:45:51,522 | INFO | httpx | HTTP Request: POST http://testserver/api/cover-letter "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,531 | INFO | app.middleware.logging | POST /api/jobs -> 200 (2.87 ms)
+2026-07-30 21:45:51,532 | INFO | httpx | HTTP Request: POST http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,540 | INFO | app.middleware.logging | GET /api/jobs -> 200 (2.76 ms)
+2026-07-30 21:45:51,541 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,549 | INFO | app.middleware.logging | GET /api/jobs/1 -> 200 (2.37 ms)
+2026-07-30 21:45:51,549 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,558 | INFO | app.middleware.logging | PUT /api/jobs/1 -> 200 (2.87 ms)
+2026-07-30 21:45:51,558 | INFO | httpx | HTTP Request: PUT http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,566 | INFO | app.middleware.logging | DELETE /api/jobs/1 -> 200 (2.33 ms)
+2026-07-30 21:45:51,567 | INFO | httpx | HTTP Request: DELETE http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,577 | INFO | app.middleware.logging | POST /api/resumes/upload -> 200 (3.67 ms)
+2026-07-30 21:45:51,577 | INFO | httpx | HTTP Request: POST http://testserver/api/resumes/upload "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,585 | INFO | app.middleware.logging | GET /api/resumes -> 200 (3.10 ms)
+2026-07-30 21:45:51,586 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes "HTTP/1.1 200 OK"
+2026-07-30 21:45:51,594 | INFO | app.middleware.logging | GET /api/resumes/latest -> 200 (1.97 ms)
+2026-07-30 21:45:51,594 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes/latest "HTTP/1.1 200 OK"
+2026-07-30 21:45:52,877 | INFO | app.services.resume_service | Resume uploaded successfully.
+2026-07-30 21:45:52,901 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-31 20:41:11,000 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-31 20:41:11,005 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-31 20:41:11,005 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-31 20:41:11,122 | INFO | app.middleware.logging | POST /api/applications -> 200 (100.31 ms)
+2026-07-31 20:41:11,125 | INFO | httpx | HTTP Request: POST http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,145 | INFO | app.middleware.logging | GET /api/applications -> 200 (6.55 ms)
+2026-07-31 20:41:11,147 | INFO | httpx | HTTP Request: GET http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,168 | INFO | app.middleware.logging | PUT /api/applications/1 -> 200 (8.41 ms)
+2026-07-31 20:41:11,170 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,187 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (6.39 ms)
+2026-07-31 20:41:11,189 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 20:41:11,208 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (7.44 ms)
+2026-07-31 20:41:11,210 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,234 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (7.41 ms)
+2026-07-31 20:41:11,236 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 20:41:11,270 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (18.29 ms)
+2026-07-31 20:41:11,272 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,297 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (10.69 ms)
+2026-07-31 20:41:11,299 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,319 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (6.03 ms)
+2026-07-31 20:41:11,321 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-31 20:41:11,343 | INFO | app.middleware.logging | POST /api/cover-letter -> 200 (6.40 ms)
+2026-07-31 20:41:11,345 | INFO | httpx | HTTP Request: POST http://testserver/api/cover-letter "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,369 | INFO | app.middleware.logging | POST /api/jobs -> 200 (12.08 ms)
+2026-07-31 20:41:11,370 | INFO | httpx | HTTP Request: POST http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,391 | INFO | app.middleware.logging | GET /api/jobs -> 200 (9.21 ms)
+2026-07-31 20:41:11,392 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,413 | INFO | app.middleware.logging | GET /api/jobs/1 -> 200 (7.64 ms)
+2026-07-31 20:41:11,415 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,438 | INFO | app.middleware.logging | PUT /api/jobs/1 -> 200 (9.80 ms)
+2026-07-31 20:41:11,440 | INFO | httpx | HTTP Request: PUT http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,463 | INFO | app.middleware.logging | DELETE /api/jobs/1 -> 200 (6.93 ms)
+2026-07-31 20:41:11,466 | INFO | httpx | HTTP Request: DELETE http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,493 | INFO | app.middleware.logging | POST /api/resumes/upload -> 200 (12.81 ms)
+2026-07-31 20:41:11,495 | INFO | httpx | HTTP Request: POST http://testserver/api/resumes/upload "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,520 | INFO | app.middleware.logging | GET /api/resumes -> 200 (7.43 ms)
+2026-07-31 20:41:11,522 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes "HTTP/1.1 200 OK"
+2026-07-31 20:41:11,547 | INFO | app.middleware.logging | GET /api/resumes/latest -> 200 (9.76 ms)
+2026-07-31 20:41:11,549 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes/latest "HTTP/1.1 200 OK"
+2026-07-31 20:41:13,839 | INFO | app.services.resume_service | Resume uploaded successfully.
+2026-07-31 20:41:13,905 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-31 20:55:35,206 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-31 20:55:35,209 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-31 20:55:35,210 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-31 20:55:35,333 | INFO | app.middleware.logging | POST /api/applications -> 200 (106.70 ms)
+2026-07-31 20:55:35,335 | INFO | httpx | HTTP Request: POST http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,363 | INFO | app.middleware.logging | GET /api/applications -> 200 (8.22 ms)
+2026-07-31 20:55:35,365 | INFO | httpx | HTTP Request: GET http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,391 | INFO | app.middleware.logging | PUT /api/applications/1 -> 200 (9.33 ms)
+2026-07-31 20:55:35,393 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,415 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (6.86 ms)
+2026-07-31 20:55:35,417 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 20:55:35,439 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (6.37 ms)
+2026-07-31 20:55:35,441 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,465 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (7.29 ms)
+2026-07-31 20:55:35,468 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 20:55:35,501 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (17.07 ms)
+2026-07-31 20:55:35,503 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,531 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (9.21 ms)
+2026-07-31 20:55:35,533 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,555 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (5.07 ms)
+2026-07-31 20:55:35,557 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-31 20:55:35,585 | INFO | app.middleware.logging | POST /api/cover-letter -> 200 (8.11 ms)
+2026-07-31 20:55:35,588 | INFO | httpx | HTTP Request: POST http://testserver/api/cover-letter "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,616 | INFO | app.middleware.logging | POST /api/jobs -> 200 (10.66 ms)
+2026-07-31 20:55:35,618 | INFO | httpx | HTTP Request: POST http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,646 | INFO | app.middleware.logging | GET /api/jobs -> 200 (10.24 ms)
+2026-07-31 20:55:35,648 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,675 | INFO | app.middleware.logging | GET /api/jobs/1 -> 200 (8.10 ms)
+2026-07-31 20:55:35,678 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,704 | INFO | app.middleware.logging | PUT /api/jobs/1 -> 200 (9.66 ms)
+2026-07-31 20:55:35,706 | INFO | httpx | HTTP Request: PUT http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,732 | INFO | app.middleware.logging | DELETE /api/jobs/1 -> 200 (7.27 ms)
+2026-07-31 20:55:35,734 | INFO | httpx | HTTP Request: DELETE http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,762 | INFO | app.middleware.logging | POST /api/resumes/upload -> 200 (11.68 ms)
+2026-07-31 20:55:35,764 | INFO | httpx | HTTP Request: POST http://testserver/api/resumes/upload "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,787 | INFO | app.middleware.logging | GET /api/resumes -> 200 (8.02 ms)
+2026-07-31 20:55:35,789 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes "HTTP/1.1 200 OK"
+2026-07-31 20:55:35,812 | INFO | app.middleware.logging | GET /api/resumes/latest -> 200 (7.65 ms)
+2026-07-31 20:55:35,814 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes/latest "HTTP/1.1 200 OK"
+2026-07-31 20:55:40,552 | INFO | app.services.resume_service | Resume uploaded successfully.
+2026-07-31 20:55:40,631 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-07-31 21:15:30,371 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-31 21:15:30,374 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-07-31 21:15:30,375 | INFO | apscheduler.scheduler | Scheduler started
+2026-07-31 21:15:30,482 | INFO | app.middleware.logging | POST /api/applications -> 200 (98.26 ms)
+2026-07-31 21:15:30,484 | INFO | httpx | HTTP Request: POST http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,502 | INFO | app.middleware.logging | GET /api/applications -> 200 (5.81 ms)
+2026-07-31 21:15:30,504 | INFO | httpx | HTTP Request: GET http://testserver/api/applications "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,521 | INFO | app.middleware.logging | PUT /api/applications/1 -> 200 (7.61 ms)
+2026-07-31 21:15:30,523 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,537 | INFO | app.middleware.logging | PUT /api/applications/999 -> 404 (5.39 ms)
+2026-07-31 21:15:30,539 | INFO | httpx | HTTP Request: PUT http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 21:15:30,554 | INFO | app.middleware.logging | DELETE /api/applications/1 -> 200 (5.59 ms)
+2026-07-31 21:15:30,555 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/1 "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,569 | INFO | app.middleware.logging | DELETE /api/applications/999 -> 404 (5.15 ms)
+2026-07-31 21:15:30,571 | INFO | httpx | HTTP Request: DELETE http://testserver/api/applications/999 "HTTP/1.1 404 Not Found"
+2026-07-31 21:15:30,593 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (11.42 ms)
+2026-07-31 21:15:30,594 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/register "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,610 | INFO | app.middleware.logging | POST /api/auth/login -> 200 (4.91 ms)
+2026-07-31 21:15:30,611 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,625 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (4.03 ms)
+2026-07-31 21:15:30,626 | INFO | httpx | HTTP Request: POST http://testserver/api/auth/login "HTTP/1.1 401 Unauthorized"
+2026-07-31 21:15:30,656 | INFO | app.middleware.logging | POST /api/cover-letter -> 200 (21.51 ms)
+2026-07-31 21:15:30,658 | INFO | httpx | HTTP Request: POST http://testserver/api/cover-letter "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,695 | INFO | app.middleware.logging | POST /api/jobs -> 200 (26.11 ms)
+2026-07-31 21:15:30,696 | INFO | httpx | HTTP Request: POST http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,714 | INFO | app.middleware.logging | GET /api/jobs -> 200 (6.93 ms)
+2026-07-31 21:15:30,715 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,731 | INFO | app.middleware.logging | GET /api/jobs/1 -> 200 (5.64 ms)
+2026-07-31 21:15:30,732 | INFO | httpx | HTTP Request: GET http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,749 | INFO | app.middleware.logging | PUT /api/jobs/1 -> 200 (6.41 ms)
+2026-07-31 21:15:30,750 | INFO | httpx | HTTP Request: PUT http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,767 | INFO | app.middleware.logging | DELETE /api/jobs/1 -> 200 (4.83 ms)
+2026-07-31 21:15:30,768 | INFO | httpx | HTTP Request: DELETE http://testserver/api/jobs/1 "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,787 | INFO | app.middleware.logging | POST /api/resumes/upload -> 200 (8.07 ms)
+2026-07-31 21:15:30,789 | INFO | httpx | HTTP Request: POST http://testserver/api/resumes/upload "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,806 | INFO | app.middleware.logging | GET /api/resumes -> 200 (7.19 ms)
+2026-07-31 21:15:30,808 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes "HTTP/1.1 200 OK"
+2026-07-31 21:15:30,824 | INFO | app.middleware.logging | GET /api/resumes/latest -> 200 (6.55 ms)
+2026-07-31 21:15:30,825 | INFO | httpx | HTTP Request: GET http://testserver/api/resumes/latest "HTTP/1.1 200 OK"
+2026-07-31 21:15:32,538 | INFO | app.services.resume_service | Resume uploaded successfully.
+2026-07-31 21:15:32,587 | INFO | apscheduler.scheduler | Scheduler has been shut down
