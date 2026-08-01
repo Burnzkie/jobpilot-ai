@@ -1,8 +1,9 @@
 #!/bin/sh
 
-echo "Running database migrations..."
-
-alembic upgrade head
+if [ "$TESTING" != "true" ]; then
+    echo "Running database migrations..."
+    alembic upgrade head
+fi
 
 echo "Starting JobPilot AI..."
 
