@@ -251,3 +251,24 @@
 2026-08-01 16:50:23,623 | INFO | app.middleware.logging | POST /api/resumes/upload -> 401 (61.93 ms)
 2026-08-01 16:50:34,951 | INFO | app.middleware.logging | POST /api/resumes/upload -> 401 (10.07 ms)
 2026-08-01 16:54:01,720 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-08-01 19:00:53,646 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-01 19:00:53,647 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-08-01 19:00:53,647 | INFO | apscheduler.scheduler | Scheduler started
+2026-08-01 19:00:53,879 | INFO | app.middleware.logging | GET / -> 200 (35.21 ms)
+2026-08-01 19:00:55,039 | INFO | app.middleware.logging | GET /favicon.ico -> 404 (0.72 ms)
+2026-08-01 19:01:01,860 | INFO | app.middleware.logging | GET /docs -> 200 (0.75 ms)
+2026-08-01 19:01:02,276 | INFO | app.middleware.logging | GET /openapi.json -> 200 (103.28 ms)
+2026-08-01 19:06:35,779 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-08-01 19:06:53,364 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-01 19:06:53,364 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-08-01 19:06:53,365 | INFO | apscheduler.scheduler | Scheduler started
+2026-08-01 19:09:30,481 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-08-01 21:14:41,081 | INFO | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-01 21:14:41,083 | INFO | apscheduler.scheduler | Added job "import_jobs_task" to job store "default"
+2026-08-01 21:14:41,084 | INFO | apscheduler.scheduler | Scheduler started
+2026-08-01 21:14:44,182 | INFO | app.middleware.logging | GET /docs -> 200 (0.52 ms)
+2026-08-01 21:14:44,838 | INFO | app.middleware.logging | GET /openapi.json -> 200 (138.56 ms)
+2026-08-01 21:15:02,601 | INFO | app.middleware.logging | POST /api/auth/register -> 200 (3062.70 ms)
+2026-08-01 21:15:13,344 | INFO | app.middleware.logging | POST /api/auth/login -> 401 (489.62 ms)
+2026-08-01 21:15:29,446 | INFO | app.middleware.logging | POST /api/jobs -> 401 (7.60 ms)
+2026-08-01 21:15:55,588 | INFO | apscheduler.scheduler | Scheduler has been shut down

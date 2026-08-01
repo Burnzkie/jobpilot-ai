@@ -33,7 +33,7 @@ async def lifespan(app: FastAPI):
         stop_scheduler()
 
 
-app = FastAPI(title="JobPilot AI", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="JobPilot AI", version="1.0.0", debug=True, lifespan=lifespan)
 app.add_exception_handler(AppException, app_exception_handler)
 
 app.include_router(auth_router)
